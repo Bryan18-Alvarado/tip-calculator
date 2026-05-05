@@ -30,9 +30,9 @@ export const CalculatorButton = ({
 const styles = StyleSheet.create({
   button: {
     flex: 1,
-    margin: 5,
-    padding: 20,
-    borderRadius: 12,
+    margin: 6,
+    padding: 22,
+    borderRadius: 14,
     backgroundColor: '#2a2a2a',
     alignItems: 'center'
   },
@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: 'white',
-    fontSize: 25
+    fontSize: 20,
+    fontWeight: '600'
   }
 })
