@@ -54,9 +54,11 @@ const styles = StyleSheet.create({
     marginBottom: 15
   },
   button: {
-    padding: 10,
-    borderRadius: 10,
-    backgroundColor: '#333'
+    flex: 1,
+    paddingVertical: 14,
+    borderRadius: 12,
+    backgroundColor: '#333',
+    alignItems: 'center'
   },
   active: {
     backgroundColor: '#ff7a00'
