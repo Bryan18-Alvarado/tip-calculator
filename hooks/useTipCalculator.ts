@@ -47,7 +47,6 @@ export const useTipCalculator = () => {
   const incrementPeople = () => setPeople((p) => p + 1)
   const decrementPeople = () => setPeople((p) => (p > 1 ? p - 1 : 1))
 
-  // 🎯 Activar custom tip
   const activateCustomTip = () => {
     setIsEditingTip(true)
     setCustomTipInput('0')
