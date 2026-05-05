@@ -37,14 +37,18 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 20
+    justifyContent: 'space-between',
+    backgroundColor: '#1e1e1e',
+    padding: 15,
+    borderRadius: 15
   },
   text: {
-    fontSize: 22,
+    fontSize: 26,
     color: 'white'
   },
   value: {
     fontSize: 20,
-    color: 'white'
+    color: 'white',
+    fontWeight: '600'
   }
 })
