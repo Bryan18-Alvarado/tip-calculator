@@ -36,21 +36,30 @@ export const Display = ({
 
 const styles = StyleSheet.create({
   container: {
-    padding: 20
+    backgroundColor: '#1e1e1e',
+    padding: 20,
+    borderRadius: 20,
+    marginBottom: 20
   },
   label: {
-    color: '#aaa'
+    color: '#aaa',
+    fontSize: 14
   },
   total: {
-    fontSize: 48,
+    fontSize: 52,
     fontWeight: '700',
-    color: 'white'
+    color: '#fff',
+    marginVertical: 10,
+    textAlign: 'center'
   },
   info: {
-    color: '#aaa'
+    color: '#aaa',
+    fontSize: 14,
+    textAlign: 'center'
   },
   custom: {
     color: '#ff7a00',
-    marginTop: 5
+    marginTop: 8,
+    fontWeight: '500'
   }
 })
