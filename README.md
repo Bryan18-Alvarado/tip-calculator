@@ -88,6 +88,3 @@ Luego puedes abrir la app en:
 
 ---
 
-## 📄 Licencia
-
-Este proyecto es de uso académico.
