@@ -43,11 +43,11 @@ const styles = StyleSheet.create({
     borderRadius: 15
   },
   text: {
-    fontSize: 26,
+    fontSize: 40,
     color: 'white'
   },
   value: {
-    fontSize: 20,
+    fontSize: 30,
     color: 'white',
     fontWeight: '600'
   }
