@@ -1,50 +1,93 @@
-# Welcome to your Expo app 👋
+# Tip & Split calculator App 💰
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil desarrollada con **React Native y Expo** que permite calcular propinas y dividir cuentas entre varias personas de forma rápida e intuitiva.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Funcionalidades
 
-   ```bash
-   npm install
-   ```
+* Cálculo automático de propina (10%, 15%, 20% o personalizada)
+* División del total entre varias personas
+* Teclado numérico personalizado (sin usar el teclado nativo)
+* Cálculos en tiempo real
+* Feedback táctil (haptics)
+* Soporte para orientación vertical y horizontal
+* Interfaz clara, moderna y enfocada en usabilidad
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📦 Instalación
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Clona el repositorio:
 
 ```bash
-npm run reset-project
+git clone https://github.com/Bryan18-Alvarado/tip-calculator.git
+cd tip-calculator
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Instala las dependencias:
 
-## Learn more
+```bash
+npm install o npm i
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## ▶️ Ejecución
 
-## Join the community
+Inicia el servidor de desarrollo:
 
-Join our community of developers creating universal apps.
+```bash
+npm start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Luego puedes abrir la app en:
+
+* Emulador Android
+* Simulador iOS
+* Expo Go en tu dispositivo físico
+
+---
+
+## 📁 Estructura del proyecto
+
+```bash
+/app
+  index.tsx
+
+/src
+  /components
+  /hooks
+```
+
+---
+
+## 🧠 Arquitectura
+
+* Separación de lógica mediante Custom Hook (`useTipCalculator`)
+* Componentes reutilizables
+* Manejo de estado centralizado
+* UI desacoplada de la lógica
+
+---
+
+## 📌 Requisitos
+
+* Node.js instalado (de preferencia la version 24)
+* Expo CLI (opcional)
+* Emulador o dispositivo físico
+
+---
+
+## ✨ Uso
+
+1. Ingresa el monto de la cuenta usando el teclado
+2. Selecciona el porcentaje de propina o usa "Custom"
+3. Ajusta la cantidad de personas
+4. Visualiza el total por persona automáticamente
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de uso académico.
